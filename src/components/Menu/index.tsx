@@ -30,33 +30,6 @@ export function Menu() {
         >
           Empresa
         </button>
-        <button
-          className="bg-inherit hover:bg-gray-800 transition-colors active:bg-cyan-500 py-5 w-full mx-10 border-l-2 border-cyan-500"
-          onClick={() => {
-            setIsOpenMenu(false)
-            push('/portfolio')
-          }}
-        >
-          Serviço
-        </button>
-        <button
-          className="bg-inherit hover:bg-gray-800 transition-colors active:bg-cyan-500 py-5 w-full mx-10 border-l-2 border-cyan-500"
-          onClick={() => {
-            setIsOpenMenu(false)
-            push('/portfolio')
-          }}
-        >
-          Clientes
-        </button>
-        <button
-          className="bg-inherit hover:bg-gray-800 transition-colors active:bg-cyan-500 py-5 w-full mx-10 border-l-2 border-cyan-500"
-          onClick={() => {
-            setIsOpenMenu(false)
-            push('/portfolio')
-          }}
-        >
-          Contato
-        </button>
       </nav>
 
     </div>

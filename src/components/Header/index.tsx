@@ -36,24 +36,6 @@ export function Header() {
             })}>
             Empresa
           </Link>
-          <Link href="/portfolio" className={
-            classNames("h-20 flex items-center font-normal text-xl text-gray-500 hover:text-white transition-colors", {
-              'border-b-4 border-cyan-500': asPath === '/portfolio'
-            })}>
-            Serviço
-          </Link>
-          <Link href="/portfolio" className={
-            classNames("h-20 flex items-center font-normal text-xl text-gray-500 hover:text-white transition-colors", {
-              'border-b-4 border-cyan-500': asPath === '/portfolio'
-            })}>
-            Clientes
-          </Link>
-          <Link href="/portfolio" className={
-            classNames("h-20 flex items-center font-normal text-xl text-gray-500 hover:text-white transition-colors", {
-              'border-b-4 border-cyan-500': asPath === '/portfolio'
-            })}>
-            Contato
-          </Link>
         </nav>
 
         <div className="flex gap-3 w-[120px] justify-end">
