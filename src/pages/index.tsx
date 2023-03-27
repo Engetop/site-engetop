@@ -43,32 +43,6 @@ export default function Home() {
 
             <MyWork />
 
-            <h2 className="block text-center mt-32 font-semibold text-5xl leading-[54px] text-gray-100">
-              Leia o comentário dos clientes
-            </h2>
-
-            <div className='flex flex-row gap-6 items-center justify-center flex-wrap  mx-auto max-w-[1114px] px-4 my-10'>
-              <CustomerComments
-                name='Cecília Amorin'
-                office='Gerente de vendas'
-                image='./client1.jpg'
-                comment='Mesmo pelo prazo curto e complexidade do nosso negócio, AmiltonDev conseguiu compreender tudo com muita agilidade e profissionalismo. Sem dúvida indicaria os seus serviços.'
-              />
-              <CustomerComments
-                name='Hélio Brito'
-                office='Empresário'
-                image='./client2.jpg'
-                comment='Muito honesto e preço justo! Equipe nota mil. Excelente atendimento e o produto foi entregue no tempo pré-determinado. Recomendo o serviço.'
-              />
-              <CustomerComments
-                name='Carlos Magno'
-                office='Software Engineer'
-                image='./user.png'
-                comment='Terceirizei meu front-end e superou minhas expectativas. Trabalho bem feito e muito organizado o projeto, entrega dentro do prazo estipulado.'
-              />
-
-            </div>
-
           </div>
       }
     </div>

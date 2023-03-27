@@ -1,4 +1,4 @@
-import { Users, Eye, Chats, Tree, Leaf } from 'phosphor-react'
+import { Tree, Leaf, Bag, ChartLineUp, ClockClockwise } from 'phosphor-react'
 import { StagesDev } from '../StagesDev'
 
 export function ContentFullStack() {
@@ -36,29 +36,31 @@ export function ContentFullStack() {
 
         <div>
           <StagesDev
-            icon={Users}
-            title='Missão'
-            subtitle='Oferecer soluções personalizadas em engenharia,
-            topografia e projetos, utilizando equipamentos modernos
-            e uma equipe altamente qualificada, visando a satisfação
-            e fidelização dos nossos clientes.'
+            icon={Bag}
+            title='ANÁLISE DO TERRENO ANTES MESMO DA COMPRA'
+            subtitle='Com o estudo prévio do terreno nas mãos, o engenheiro pode
+            avaliar as reais condições do relevo e limites do terreno, além de
+            ter o perímetro e área real da propriedade para realizar a
+            comparação com o registro de imóveis, podendo evitar
+            problemas futuros.'
           />
           <StagesDev
-            icon={Eye}
-            title='Visão'
-            subtitle='Ser uma empresa líder em soluções de engenharia,
-            topografia e projetos, reconhecida pela excelência em
-            nossos serviços e pelo compromisso com a satisfação
-            dos nossos clientes.'
+            icon={ChartLineUp}
+            title='VIABILIDADE DO PROJETO'
+            subtitle='O levantamento topográfico da área apresenta todos os
+            elementos existente no local, como arruamentos, meio fios,
+            alinhamento de muros, cercas, postes, igarapés, nascentes
+            entre outros. Com a informação do nível, será possível fazer um
+            estudo mais eficaz de terraplanagem.'
           />
           <StagesDev
-            icon={Chats}
-            title='Valores'
-            subtitle='Comprometimento com a qualidade dos serviços.
-            Atendimento personalizado e focado nas necessidades do cliente.
-            Ética e transparência em todas as relações.
-            Busca constante por inovação e tecnologia de ponta.
-            Responsabilidade social e ambiental.'
+            icon={ClockClockwise}
+            title='ECONOMIA DE TEMPO'
+            subtitle='O levantamento topográfico da área apresenta todos os
+            elementos existente no local, como arruamentos, meio fios,
+            alinhamento de muros, cercas, postes, igarapés, nascentes
+            entre outros. Com a informação do nível, será possível fazer um
+            estudo mais eficaz de terraplanagem.'
           />
         </div>
       </div>
